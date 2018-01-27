@@ -1,0 +1,48 @@
+{
+  "name": "cryptonote-wallet",
+  "version": "1.0.0",
+  "description": "cryptonote-wallet",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "build": "webpack"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^6.0.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "copy-webpack-plugin": "^4.3.1",
+    "css-loader": "^0.23.1",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.6.2",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "babel-preset-stage-1": "^6.1.18",
+    "extract-text-webpack-plugin": "1.0.1",
+    "material-ui": "^0.20.0",
+    "moment": "^2.20.1",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-qr-reader": "^2.0.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^2.0.0",
+    "react-slick": "^0.16.0",
+    "redux": "^3.0.4",
+    "redux-persist": "^5.5.0",
+    "redux-thunk": "^2.2.0",
+    "slick-carousel": "^1.8.1",
+    "speakeasy": "^2.0.0",
+    "winston": "^2.4.0"
+  }
+}

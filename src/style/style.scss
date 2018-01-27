@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+$normal-text-color: black;
+$alternative-text-color: blue;
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-color: white;
+  color: $normal-text-color;
+}
+
+h1, h2, h3, h4, h5 {
+  color: $alternative-text-color;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.logo-container {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  img {
+    max-width: 100%;
+  }
+}
+
+.page-layout {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 64px;
+  bottom: 64px;
+}
+
+.ant-menu-item {
+  height: 100%;
+}
+
+.page-header {
+  .ant-menu {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    .ant-menu-item {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+
+  }
+}
+
+#components-form-demo-normal-login .login-form {
+  max-width: 300px;
+}
+#components-form-demo-normal-login .login-form-forgot {
+  float: right;
+}
+#components-form-demo-normal-login .login-form-button {
+  width: 100%;
+}
